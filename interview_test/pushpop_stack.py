@@ -16,11 +16,11 @@ class Solution:
             return self.stack2.pop()
 
 #
-# if __name__=='__main__':
-#     solution=Solution()
-#     solution.push(1)
-#     solution.push(2)
-#     solution.push(3)
-#     print(solution.pop())
-#     print(solution.pop())
-#     print(solution.pop())
+if __name__=='__main__':
+    solution=Solution()
+    solution.push(1)
+    solution.push(2)
+    solution.push(3)
+    print(solution.pop())
+    print(solution.pop())
+    print(solution.pop())
