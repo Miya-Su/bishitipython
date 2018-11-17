@@ -33,5 +33,5 @@ def replace_black2(string):
 
 test_string="we are happy now"
 string_list=list(test_string)
-# replace_black1(string_list,100)
-# replace_black2(string_list)
+replace_black1(string_list,100)
+replace_black2(string_list)
