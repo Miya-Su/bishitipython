@@ -28,4 +28,4 @@ def minInorder(rotateArray,left,right):
 
 if __name__=='__main__':
     array=[5,6,7,9,2,4]
-    print(minNumberInRotateArray(array))
+    # print(minNumberInRotateArray(array))
