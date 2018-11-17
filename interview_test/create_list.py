@@ -29,5 +29,5 @@ def f1(listnode):
         lists.append(listnode.value)
         listnode=listnode.next
     return lists[::-1]
-# listnode=Createlist(6)
-# print(f1(listnode))
+listnode=Createlist(6)
+print(f1(listnode))
