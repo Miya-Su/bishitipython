@@ -12,4 +12,4 @@ def Fibonacci(n):
             list.append(list[-1]+list[-2])
         return list[-1]
 
-# print(Fibonacci(8))
+print(Fibonacci(8))
