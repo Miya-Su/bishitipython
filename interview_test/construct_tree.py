@@ -17,7 +17,8 @@ def construct_tree(pre_order,mid_order):
         left=construct_tree(pre_order[1:1+i],mid_order[:i])
         right=construct_tree(pre_order[1+i:],mid_order[i+1:])
         return Node(root_data,left,right)
-# if __name__=='__main__':
-#         pre_ordef=[1,2,4,7,3,5,6,8]
-#         mid_order=[4,7,2,1,5,3,8,6]
-#         root=construct_tree(pre_ordef,mid_order)
+        
+if __name__=='__main__':
+        pre_ordef=[1,2,4,7,3,5,6,8]
+        mid_order=[4,7,2,1,5,3,8,6]
+        root=construct_tree(pre_ordef,mid_order)
